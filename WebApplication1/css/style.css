@@ -1,0 +1,556 @@
+body {
+    background-color: #d9d9d9;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    max-width: 100%;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  color: #1abc9c;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*---------------------------------------------------
+3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: hidden;
+  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: #fff;
+}
+
+#topbar-inner {
+  background: #2c3e50;
+  line-height: 0;
+  text-align: center;
+}
+
+/*
+Top Bar
+
+By default, top navigation bar uses "fixed" position
+*/
+
+#section-topbar ul#nav {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* For IE, the outcast */
+  zoom: 1;
+  *display: inline;
+}
+
+#section-topbar ul#nav>li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+}
+
+#section-topbar ul#nav a:focus {
+  background: #2c3e50;
+  text-decoration: none;
+
+}
+
+#section-topbar ul#nav a:hover {
+  background: #44bbaa;
+  text-decoration: none;
+
+}
+
+#section-topbar ul#nav .active a {
+  background: #44bbaa;
+
+}
+
+#section-topbar ul#nav .active a:hover {
+  background: #44bbaa;
+}
+
+#section-topbar i {
+  font-size: 25px;
+}
+
+/*---------------------------------------------------
+SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+
+#headerwrap {
+    background: no-repeat center top;
+    background-image: url('../img/darkbg.jpg');
+    margin-top: 60px;
+    padding-top: 140px;
+    text-align: center;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+  font-size: 80px;
+  color: white;
+  padding-top: 50px;
+}
+
+.vectorzoom:hover {
+    transform: scale(1.3);
+}
+
+.vectorzoom {
+    transition: all 1s;
+
+}
+
+/* [1] The container */
+.img-responsive {
+    height: auto; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-responsive {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-responsive:hover {
+    transform: scale(1.1);
+}
+#headerwrap h3 {
+  font-size: 20px;
+  color: white;
+}
+div typed{
+    position: center;
+    width: 83%;
+    height: 175px;
+    margin: 7% auto;
+}
+.arrow {
+    position: relative;
+    bottom: -5rem;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    padding-bottom:15px;
+    background-image: url(/img/down.png);
+    background-size: contain;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }}
+
+h3 {
+    position: center;
+    width: 100%;
+    height: 50%;
+    font-size: 45px;
+}
+
+h3:after {
+    position: center;
+    content: "";
+    width: 100%;
+    height: 100%;
+    line-height: 48px;
+    left: 30%;
+    top: 50%;
+    animation: animination1 3.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes animination1 {
+    0% {
+        content: ".N";
+    }
+
+    4% {
+        content: ".NE";
+    }
+
+    8% {
+        content: ".NET";
+    }
+
+    12% {
+        content: ".NET W";
+    }
+
+    16% {
+        content: ".NET We";
+    }
+
+    20% {
+        content: ".NET Web";
+    }
+
+    24% {
+        content: ".NET Web D";
+    }
+
+    28% {
+        content: ".NET Web De";
+    }
+
+    32% {
+        content: ".NET Web Dev";
+    }
+
+    36% {
+        content: ".NET Web Deve";
+    }
+
+    40% {
+        content: ".NET Web Devel";
+    }
+    44% {
+        content: ".NET Web Develo";
+    }
+    48% {
+        content: ".NET Web Develop";
+    }
+    52% {
+        content: ".NET Web Develope";
+    }
+    56% {
+        content: ".NET Web Developer";
+    }
+    60% {
+        content: ".NET Web Developer |";
+    }
+    64% {
+        content: ".NET Web Developer | F";
+    }
+    68% {
+        content: ".NET Web Developer | Fu";
+    }
+    72% {
+        content: ".NET Web Developer |  Ful";
+    }
+    76% {
+        content: ".NET Web Developer | Full";
+    }
+    80% {
+        content: ".NET Web Developer | Full-";
+    }
+    84% {
+        content: ".NET Web Developer | Full-S";
+    }
+    88% {
+        content: ".NET Web Developer | Full-St";
+    }
+    92% {
+        content: ".NET Web Developer | Full-Sta";
+    }
+    96% {
+        content: ".NET Web Developer | Full-Stac";
+    }
+    100% {
+        content: ".NET Web Developer | Full-Stack";
+    }
+}
+/* Intro Wrap */
+#intro {
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+#intro h5, p {
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#intro i {
+    color: white;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+#skillswrap {
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+#skillswrap h5, p {
+    color: white;
+}
+
+#csharptext {
+    padding-left: 8px;
+}
+#footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #2c3e50;
+}
+#footwrap {
+    background: #2f2f2f;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#footwrap p {
+    color: white;
+}
+
+#footwrap h5 {
+    color: white;
+}
+
+#footwrap t {
+    font-weight: 700;
+}
+
+#footwrap i {
+    padding-right: 8px;
+    color: #1abc9c;
+}
+/* Copyright Wrap */
+#copyrights {
+    background: #222222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+#copyrights p {
+    margin: 0 0 5px 0;
+}
+
+.credits {
+    color: #999;
+}
+/* Global Values */
+.desc {
+    padding-top: 50px;
+}
+
+.desc p {
+    color: #2f2f2f;
+}
+
+.desc t {
+    color: #34495e;
+    font-weight: 700;
+}
+
+.desc imp {
+    padding: 6px;
+    color: white;
+    background: #34495e;
+}
+
+.desc more {
+    color: #000000;
+}
+
+sm {
+    font-size: 12px;
+}
+/* Contact Form */
+
+.contact-form label {
+    color: #999;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px 12px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    height: auto;
+}
+
+.contact-form .form-send {
+    text-align: center;
+}
+
+.contact-form .form-send button {
+    background: #44bbaa;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.contact-form .form-send button:hover {
+    background: #23c8b1;
+}
+
+.contact-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact-form .loading {
+    display: none;
+    color: #555;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.contact-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading {
+0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}}
+
+100% {
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+
+@keyframes animate-loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
