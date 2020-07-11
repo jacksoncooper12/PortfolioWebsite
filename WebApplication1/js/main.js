@@ -18,6 +18,7 @@ jQuery(document).ready(function( $ ) {
     interval: 3500
   });
 
+
   // JavaScript Chart
   var doughnutData = [{
       value: 70,
@@ -90,3 +91,4 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
 });
+

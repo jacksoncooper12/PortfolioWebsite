@@ -26,7 +26,10 @@
 
 </head>
 <body data-spy="scroll" data-offset="64" data-target="#section-topbar">
-
+    <div class="loader_bg">
+        <div class="row text-center"><h1 id="loadingin">Welcome To My Page</h1></div>
+        <div class="loader"></div>
+    </div>
     <div id="section-topbar">
         <div id="topbar-inner">
             <div class="container">
@@ -412,6 +415,11 @@
     <script src="lib/php-mail-form/validate.js"></script>
     <script src="lib/chart/chart.js"></script>
     <script src="lib/easing/easing.min.js"></script>
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 1800);
+    </script>
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
