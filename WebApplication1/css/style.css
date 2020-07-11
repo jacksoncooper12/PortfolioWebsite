@@ -274,7 +274,7 @@ div typed{
 
 .bounce {
     animation: bounce 2s infinite;
-    animation-delay: 5.2s;
+    animation-delay: 5.3s;
 }
 
 @keyframes bounce {
