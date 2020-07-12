@@ -200,7 +200,7 @@ SECTION WRAPS
 
 #headerwrap {
     background: no-repeat center top;
-    background-image: url('../img/darkbg.jpg');
+    background-image: url('/img/darkbg2.jpg');
     margin-top: 60px;
     padding-top: 140px;
     text-align: center;
