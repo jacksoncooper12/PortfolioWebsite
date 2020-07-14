@@ -85,6 +85,7 @@
     <Content Include="img\javascript-seeklogo.com.svg" />
     <Content Include="img\math.jpg" />
     <Content Include="img\microsoft-sql-server-seeklogo.com.svg" />
+    <Content Include="img\sunset.jpg" />
     <Content Include="img\tacocat.jpg" />
     <Content Include="Index.html" />
     <Content Include="js\prism.js" />
