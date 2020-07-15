@@ -91,4 +91,7 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
 });
+setTimeout(function () {
+    $('.loader_bg').fadeToggle();
+}, 1800);
 
