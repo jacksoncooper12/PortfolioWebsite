@@ -199,15 +199,32 @@ By default, top navigation bar uses "fixed" position
     background-color: #44bbaa;
     font-size:large;
     font-weight:bold;
+    color:white;
 }
 
+.white{
+    color:white
+}
+
+#formPad{
+    padding-bottom: 0px;
+    padding-top:0px
+}
+#namePad{
+    padding-top:0px;
+    padding-bottom:0px
+}
 
 .inputs{
-    color:black
+    color:black;
+    font-weight:500
 }
 .cntcPad{
     padding-left:1em;
     padding-right:1em
+}
+textarea{
+    resize: none;
 }
 /*---------------------------------------------------
 SECTION WRAPS

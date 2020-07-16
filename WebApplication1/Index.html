@@ -372,16 +372,13 @@
                             Contact Form
                         </p>
                         <form name="contact" method="POST" data-netlify="true">
-                            <p>
-                                Name:<br/> <input class="btnWide inputs" type="text" name="name" />
-                            </p>
-                            <p>
-                                Email:<br/> <input class="btnWide inputs" type="email" name="email" />
-                            </p>
-                            <p>
-                                Message:<br/> <textarea class="btnWide inputs" name="message"></textarea>
-                            </p>
-                                <button type="submit" class="btnWide btnTeal">Send</button>
+                            <p id="namePad">Name:<br /> <input class="btnWide inputs" type="text" name="name" /></p>
+
+                            <p id="formPad">Email:<br/> <input class="btnWide inputs" type="email" name="email" /></p>
+
+                            <p id="formPad">Message:<br /> <textarea rows="6" class="btnWide inputs" name="message"></textarea></p>
+
+                            <button type="submit" class="btnWide btnTeal">Send</button>
                         </form>
                     </div>
                 </div>
