@@ -193,19 +193,26 @@ By default, top navigation bar uses "fixed" position
 }
 
 .btnWide{
-    width: 100%
+    width: 100%;
 }
+.btnTeal {
+    background-color: #44bbaa;
+    font-size:large;
+    font-weight:bold;
+}
+
 
 .inputs{
     color:black
 }
-
+.cntcPad{
+    padding-left:1em;
+    padding-right:1em
+}
 /*---------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
-
 /* Header Wrap */
-
 #headerwrap {
     background: no-repeat center top;
     background-image: url('/img/darkbg2.jpg');
