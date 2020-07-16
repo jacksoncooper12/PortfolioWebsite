@@ -192,6 +192,14 @@ By default, top navigation bar uses "fixed" position
   font-size: 25px;
 }
 
+.btnWide{
+    width: 100%
+}
+
+.inputs{
+    color:black
+}
+
 /*---------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
