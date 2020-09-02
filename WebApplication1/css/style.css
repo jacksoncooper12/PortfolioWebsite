@@ -219,6 +219,9 @@ By default, top navigation bar uses "fixed" position
     color:black;
     font-weight:500
 }
+.hey p{
+    padding-top:30px
+}
 .cntcPad{
     padding-left:1em;
     padding-right:1em
