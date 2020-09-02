@@ -73,6 +73,7 @@
     <Content Include="css\style.css" />
     <Content Include="img\bootstrap-seeklogo.com.svg" />
     <Content Include="img\c-sharp-c-seeklogo.com.svg" />
+    <Content Include="img\Cbug.jpg" />
     <Content Include="img\chooseStarter.gif" />
     <Content Include="img\codingMac.jpeg" />
     <Content Include="img\css-3-seeklogo.com.svg" />
