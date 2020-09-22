@@ -80,6 +80,7 @@
     <Content Include="img\darkbg2.jpg" />
     <Content Include="img\down.png" />
     <Content Include="img\faviconmain-32x32.png" />
+    <Content Include="img\FinancialPortal.jpg" />
     <Content Include="img\fizz.gif" />
     <Content Include="img\FizzBuzz.png" />
     <Content Include="img\headshot.png" />
