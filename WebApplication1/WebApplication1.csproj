@@ -71,10 +71,12 @@
     <Content Include="contactform\Readme.txt" />
     <Content Include="css\prism.css" />
     <Content Include="css\style.css" />
+    <Content Include="img\Blog.jpg" />
     <Content Include="img\bootstrap-seeklogo.com.svg" />
     <Content Include="img\c-sharp-c-seeklogo.com.svg" />
     <Content Include="img\Cbug.jpg" />
     <Content Include="img\chooseStarter.gif" />
+    <Content Include="img\cloud.jpg" />
     <Content Include="img\codingMac.jpeg" />
     <Content Include="img\css-3-seeklogo.com.svg" />
     <Content Include="img\darkbg2.jpg" />
@@ -126,6 +128,7 @@
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="img\JacksonCooperResume.pdf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
